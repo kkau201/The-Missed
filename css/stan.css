@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900,900i');
+
+body
+{
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+}
+
+#top, #bottom, #left, #right {
+	background: #d5767a;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 1%;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2%;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+h1 {
+	font-family: 'Lato';
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+#close {
+	font-family: 'Lato';
+	font-size: 30px;
+	float: right;	
+	text-decoration: none;
+	color: black;	
+	text-align: right;
+}
+
+#header {
+	padding-top: 5%;
+}
+
+#main_container {
+	font-family: 'Lato';
+	text-align: justify;
+	height: 500px;
+}
+
+.circle {
+	width: 100%;
+}
+
+.description p {
+	padding-top: 5%;
+	text-align: justify;	
+	line-height: 30px;
+	font-family: Lato;
+	font-size: 2.5vmin;
+}
+
+.description {
+	text-align: center;
+	width: 90%;
+}
+
+.description h2 {
+	font-size: 20px;
+}
+
+.description a {
+	text-decoration: underline;
+}
+
+.description a:hover {
+	color: #d5767a;
+	cursor: pointer;
+}
+/*BUTTON===============================================
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('../img/up_button.gif') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}*/
+
+.button {
+	float: right;
+	opacity: 0.3;
+
+}
+
+button {
+	color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: Lato;
+  	font-size: 20px;
+  	background: gray;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
+}
+
+button:hover {
+  	background: #d5767a;
+}
+
+p {
+	font-size: 16px;
+}
+
+#butt, #butt_2 {
+	text-align: center;
+}
+
+#butt {
+	padding-top: 10px;
+}
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}

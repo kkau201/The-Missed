@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900,900i');
+
+body {
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+}
+
+#top, #bottom, #left, #right {
+	background: #d5767a;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 1%;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2%;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+h1 {
+	font-family: 'Lato';
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+#close {
+	font-family: 'Lato';
+	font-size: 30px;
+	float: right;	
+	text-decoration: none;
+	color: black;	
+	text-align: right;
+}
+
+#header {
+	padding-top: 5%;
+}
+
+
+.paragraph,
+.paragraph_2{
+	font-family: 'Lato';
+	text-align: justify;
+	padding-top: 2%;
+	font-size: 2.5vmin;	
+	line-height: 25px;
+}
+
+.paragraph {
+	height: 600px;
+}
+
+.paragraph_2 {
+	padding-top: 6%;
+	height: 500px;
+}
+
+.fixed-bg {
+    background-image: url("../img/significance_1.jpg");
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fixed-bg2 {
+    background-image: url("../img/poppy.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	position: relative;
+}
+
+#poppy_link {
+	color: white;
+	margin: auto;
+	z-index: 99;
+	position: absolute;
+	margin-left: 35%;
+	margin-top: 13%;
+	font-size: 7vmin;
+	text-decoration: none;
+	font-family: Lato;
+	letter-spacing: 10px;
+}
+
+#poppy_link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+/*BUTTON===============================================*/
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('../img/up_button.gif') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+.button {
+	float: right;
+	opacity: 0.3;
+
+}
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}

@@ -1,0 +1,172 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900,900i');
+
+/*MAIN LAYOUT==========================================*/
+body {
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+}
+
+#page_container {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	overflow-x: visible;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+#top, #bottom, #left, #right {
+	background: #d5767a;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 1%;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2%;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+h1 {
+	font-family: 'Lato';
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+#close {
+	font-family: 'Lato';
+	font-size: 30px;
+	float: right;	
+	text-decoration: none;
+	color: black;	
+	text-align: right;
+}
+
+#header {
+	padding-top: 5%;
+}
+
+/*BUTTON===============================================*/
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('../img/up_button.gif') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+.button {
+	float: right;
+	opacity: 0.3;
+
+}
+
+/*CAROUSEL=============================================*/
+
+.links {
+	color: #d5767a;
+	text-shadow: 3px 3px white;
+	-webkit-transition: 0.4s;
+	font-size: 50px;
+}
+
+.links:hover {
+	font-size: 60px;
+	cursor: pointer;
+	color: #B8393E;
+	text-shadow: 0px 0px;
+	text-decoration: none;
+}
+
+/*#link_2 {
+	color: ;
+}*/
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 40%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+	font-family: 'Abril Fatface';
+}
+
+.header-text h2 {
+    font-size: 80px;
+}
+
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+/*SECTIONS=============================================*/
+
+button {
+	color: white;
+	background-color: black;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: Nunito;
+  	font-size: 20px;
+  	background: #000000;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
+}
+
+button:hover {
+  	background: #d5767a;
+}
+
+p {
+	font-size: 16px;
+}

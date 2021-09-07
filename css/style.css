@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+@font-face {
+    font-family: Century Gothic;
+    src: url(fonts/Century_Gothic.ttf);
+	src: url(fonts/Century_Gothic.eot);
+	src: url(fonts/Century_Gothic.svg);
+	src: url(fonts/Century_Gothic.woff);
+	src: url(fonts/Century_Gothic.woff2);
+}
+
+/*MAIN LAYOUT==========================================*/
+body {
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+}
+
+body {
+	background: white;
+}
+
+#page_container {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	overflow-x: visible;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+/*SECTIONS=============================================*/
+header {
+	padding-top: 40px;
+	height: 100px;
+}
+
+#social img {
+	width: 25px;
+	float: right;
+}
+
+#social ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#social li {
+    float: right;
+}
+
+#social li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+/*CAROUSEL=============================================*/
+
+.links {
+	color: #d5767a;
+	text-shadow: 3px 3px white;
+	-webkit-transition: 0.4s;
+	font-size: 7vmin;
+}
+
+.links:hover {
+	font-size: 8vmin;
+	cursor: pointer;
+	color: #B8393E;
+	text-shadow: 0px 0px;
+	text-decoration: none;
+}
+
+/*#link_2 {
+	color: ;
+}*/
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 40%;
+    left: 1.8%;
+    right: auto;
+    width: 96.66666666666666%;
+    color: #fff;
+	font-family: 'Abril Fatface';
+}
+
+.header-text h2 {
+    font-size: 80px;
+}

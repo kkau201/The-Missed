@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900,900i');
+
+/*MAIN LAYOUT==========================================*/
+body {
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+}
+
+#page_container {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	overflow-x: visible;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/*BUTTON===============================================*/
+.scrollToTop{
+	width:100px; 
+	height:130px;
+	padding:10px; 
+	text-align:center; 
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	position:fixed;
+	top:75px;
+	right:40px;
+	display:none;
+	background: url('../img/up_button.gif') no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+}
+
+.button {
+	float: right;
+	opacity: 0.3;
+
+}
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+/*SECTIONS=============================================*/
+
+button {
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: Lato;
+  	font-size: 20px;
+  	background-color: gray;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
+}
+
+button:hover {
+  	background: #d5767a;
+}
+
+p {
+	font-size: 16px;
+}

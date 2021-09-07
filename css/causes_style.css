@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900,900i');
+
+body {
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+	font-family: Lato;
+	text-align: justify;
+	font-size: 2.5vmin;	
+	line-height: 30px;
+}
+
+#top, #bottom, #left, #right {
+	background: #d5767a;
+	position: fixed;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 1%;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2%;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+h1 {
+	font-family: 'Lato';
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+#close {
+	font-family: 'Lato';
+	font-size: 30px;
+	float: right;	
+	text-decoration: none;
+	color: black;	
+	text-align: right;
+}
+
+#header {
+	padding-top: 5%;
+}
+
+.paragraph, 
+.paragraph_2{
+	font-family: 'Lato';
+	text-align: justify;
+	padding-top: 2%;
+	font-size: 2.5vmin;	
+	line-height: 38px;
+}
+
+.paragraph {
+	height: 800px;
+}
+
+.paragraph_2 {
+	height: 30%;
+}
+
+#text_2 {
+	padding-bottom: 30px;
+}
+
+.fixed-bg {
+    background-image: url("../img/h1.jpg");
+    min-height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button {
+	color: white;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-family: Lato;
+  	font-size: 20px;
+  	background: gray;
+  	padding: 10px 20px 10px 20px;
+  	text-decoration: none;
+}
+
+button:hover {
+  	background: #d5767a;
+}
+
+p {
+	font-size: 16px;
+}
+
+#butt {
+	text-align: center;
+}
+
+#butt {
+	padding-top: 10px;
+	padding-bottom: 100px;
+}
+
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}

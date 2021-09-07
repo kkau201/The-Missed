@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900,900i');
+
+/*MAIN LAYOUT==========================================*/
+body {
+	background:url('body.png') no-repeat;
+	background-size:100%;
+	display:none;
+}
+
+#page_container {
+	width: 100%;
+	position: relative;
+	text-align: left;
+	overflow-x: visible;
+}
+
+img {
+	max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+#top, #bottom, #left, #right {
+	background: #d5767a;
+	position: fixed;
+	z-index: 99;
+	}
+	#left, #right {
+		top: 0; bottom: 0;
+		width: 1%;
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+		
+	#top, #bottom {
+		left: 0; right: 0;
+		height: 2%;
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
+
+h1 {
+	font-family: 'Lato';
+	font-size: 35px;
+	letter-spacing: 10px;
+}
+
+#close {
+	font-family: 'Lato';
+	font-size: 30px;
+	float: right;	
+	text-decoration: none;
+	color: black;	
+	text-align: right;
+}
+
+#header {
+	padding-top: 5%;
+}
+
+footer {
+	z-index: 1;
+	position: relative;
+	margin-top: -70px;
+	
+}
+
+/*WRAPPERS===============================================*/
+.wrapper {
+	width: 75%;/*980px*/
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+.wrapper_2 {
+	width: 80%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+	
+}
+
+.wrapper_3 {
+	width: 100%;
+	margin: auto;
+	clear: both;
+	overflow:hidden;
+}
+
+/*SECTIONS=============================================*/
+
+p {
+	font-size: 16px;
+}
